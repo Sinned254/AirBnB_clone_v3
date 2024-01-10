@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Register blueprint"""
+"""
+app.py - Register blueprint
+"""
 import os
 from flask import Flask, Blueprint, jsonify
 from api.v1.views import app_views
